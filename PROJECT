@@ -1,0 +1,6 @@
+domain: veverita7.github.io
+layout:
+- go.kubebuilder.io/v3
+projectName: pinpoint-operator
+repo: github.com/veverita7/pinpoint-operator
+version: "3"
