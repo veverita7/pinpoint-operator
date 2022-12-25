@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: pinpoint-operator
 repo: github.com/veverita7/pinpoint-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: veverita7.github.io
+  group: pinpoint
+  kind: Collector
+  path: github.com/veverita7/pinpoint-operator/api/v1alpha1
+  version: v1alpha1
 version: "3"

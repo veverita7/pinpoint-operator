@@ -1,0 +1,12 @@
+apiVersion: pinpoint.veverita7.github.io/v1alpha1
+kind: Collector
+metadata:
+  labels:
+    app.kubernetes.io/name: collector
+    app.kubernetes.io/instance: collector-sample
+    app.kubernetes.io/part-of: pinpoint-operator
+    app.kuberentes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: pinpoint-operator
+  name: collector-sample
+spec:
+  # TODO(user): Add fields here
